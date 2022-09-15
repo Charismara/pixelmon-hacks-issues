@@ -5,15 +5,79 @@ labels: ["bug", "triage"]
 assignees:
   - Charismara
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: MinecraftVersion
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Minecraft Version
+      description: What Minecraft version are you using?
+      placeholder: 1.16.5
+    validations:
+      required: true
+  - type: input
+    id: ForgeVersion
+    attributes:
+      label: Forge Version
+      description: What Forge version are you using?
+      placeholder: 36.2.39
+    validations:
+      required: true
+  - type: input
+    id: PixelmonVersion
+    attributes:
+      label: Pixelmon Version
+      description: What Pixelmon version are you using?
+      placeholder: 9.0.8
+    validations:
+      required: true
+  - type: input
+    id: JourneymapVersion
+    attributes:
+      label: Journeymap Version
+      description: What Pixelmon version are you using?
+      placeholder: 5.8.5
+    validations:
+      required: true
+  - type: input
+    id: PixelmonHacksVersion
+    attributes:
+      label: Pixelmon Hacks Version
+      description: What Pixelmon version are you using?
+      placeholder: 5.8.5
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: reproductionSteps
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
+    validations:
+      required: true
+  - type: input
+    id: CrashReportLink
+    attributes:
+      label: Crash Report Link
+      description: Crash Report Link (upload here: https://mclo.gs/ )
+      placeholder: https://mclo.gs/
+    validations:
+      required: false
+  - type: textarea
+    id: extraNotes
+    attributes:
+      label: Extra Notes
+      description: notes
+      placeholder: 
     validations:
       required: false
