@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Feature Request
+description: Request a new Feature
 title: "[Feature Request]: "
 labels: ["enhancement ", "triage"]
 assignees:
