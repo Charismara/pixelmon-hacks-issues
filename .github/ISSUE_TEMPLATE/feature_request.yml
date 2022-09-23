@@ -1,0 +1,15 @@
+name: Bug Report
+description: File a bug report
+title: "[Feature Request]: "
+labels: ["enhancement ", "triage"]
+assignees:
+  - Charismara
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: 
+    validations:
+      required: true
