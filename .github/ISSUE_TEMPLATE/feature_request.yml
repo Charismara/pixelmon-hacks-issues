@@ -8,8 +8,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is.
+      label: Describe the Feature
+      description: A clear and concise description of what the feature is.
       placeholder: 
     validations:
       required: true
