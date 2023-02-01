@@ -1,0 +1,15 @@
+name: Question
+description: Ask something about Pixelmon Hacks
+title: "[Question]: "
+labels: ["question"]
+assignees:
+  - Charismara
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Question
+      description: Ask your question here
+      placeholder: 
+    validations:
+      required: true
